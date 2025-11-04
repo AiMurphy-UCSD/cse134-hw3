@@ -34,6 +34,7 @@ body {
     color: var(--text);
 }
 
+
 /* ==== NAV ==== */
 header {
   nav ul {
@@ -53,7 +54,7 @@ header {
         text-decoration: none;
         cursor: pointer;
         position: relative;
-
+        color: var(--text);
         &::after {
         content: "";
         position: absolute;
@@ -71,6 +72,9 @@ header {
         }
         &:hover::after {
           width: 100%; 
+        }
+        &:link{
+          color: var(--text);
         }
       }
     }
